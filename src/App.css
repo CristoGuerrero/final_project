@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.beerLogo {
+  max-width: 2rem;
+}
