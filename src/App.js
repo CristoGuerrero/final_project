@@ -1,6 +1,5 @@
 import './App.css';
 import Intro from './pages/intro';
-import Cookies from 'universal-cookie';
 import Home from './pages/home';
 import NoAuth from './pages/no-auth';
 import About from './pages/about';
@@ -13,9 +12,7 @@ import {
 } from "react-router-dom";
 
 function App() {
-  const cookies = new Cookies();
-  const edad = cookies.get('edad');
-  
+
   return (
     <BrowserRouter>
       <Routes>
