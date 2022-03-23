@@ -1,7 +1,5 @@
 import React from 'react';
 import Data from '../services/data.json';
-import Navbar from '../components/navbar';
-import { Card, Button, Container } from 'react-bootstrap';
 import { useParams, Link } from 'react-router-dom';
 
 

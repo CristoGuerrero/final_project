@@ -1,8 +1,6 @@
 import React from 'react';
 import Data from '../services/data.json';
-import Navbar from '../components/navbar';
 import { Link } from 'react-router-dom';
-import { Card, Button, Container } from 'react-bootstrap';
 
 
 const Services = () => {    

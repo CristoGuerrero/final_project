@@ -5,7 +5,7 @@ import Navbar from '../components/navbar';
 import Services from '../components/services';
 
 function Home() {
-    const cookie = new Cookies;
+    const cookie = new Cookies();
     const navigate = useNavigate();
     const checkEdad = cookie.get('edad');
 
